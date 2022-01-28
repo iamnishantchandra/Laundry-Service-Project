@@ -1,0 +1,38 @@
+.header{
+    height:80px;
+    width:100%;
+    position: relative;
+}
+.logo{
+    margin-left:119px;
+    width: 108px;
+    float: left;
+    height: 80px;
+}
+.logo h3{
+    color:#5861AE;
+    font-size: 20px;
+    margin-top:25px;
+}
+
+.top-nav{
+    position:absolute;
+    right:0;
+    text-align: center;
+    height: 80px;
+}
+
+.headerlinks{
+    width: 113px;
+    height: 55px;
+    display: inline-block;
+    border: 0.1px solid #eee;
+    padding-top: 25px;
+    color: #565657;
+    font-size: 14px;
+}
+
+.signbtn{
+    background-color: #5861AE;
+    color:white;
+}
