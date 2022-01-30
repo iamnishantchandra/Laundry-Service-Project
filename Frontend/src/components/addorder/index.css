@@ -1,0 +1,31 @@
+.container-fluid{
+    background-color: whitesmoke;
+    padding: 0px;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    /* background-color: #4CAF50; Green */
+    border: 1px solid #5861AE;
+    /* color: white; */
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .button4 {
+    background-color: white;
+    color: #5861AE;
+    /* border: 2px solid #e7e7e7; */
+  }
+.add-order-content{
+  margin-left:480px;
+  margin-top:200px;
+}
