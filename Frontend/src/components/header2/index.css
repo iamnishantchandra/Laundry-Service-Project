@@ -1,0 +1,71 @@
+.header2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-around;
+  background-color: white;
+  height: 60px;
+
+}
+.appname{
+  width:70%
+}
+.subheader{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+
+}
+.Pricing{
+  width: 33.33%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#5861AE;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid rgb(214, 206, 206);
+  border-right: 1px solid rgb(214, 206, 206);
+}
+.Career{
+  width: 33.33%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5861AE;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.Username{
+  width: 33.33%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #5861AE;
+  color: white;
+}
+.buttonl{
+  background-color: transparent;
+  border: 9px solid transparent;
+  color: #5861AE;
+}
+.about,.explore,.log{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #5861AE;
+}
+.logout{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size: 15px;
+}

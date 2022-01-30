@@ -1,0 +1,224 @@
+.orderscontainer{
+    padding-right:40px;
+    padding-left: 40px;
+}
+.head{
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+   
+}
+.numorders{
+    font-weight:500;
+    width: 200px;
+}
+.searchbardiv{
+    width:150px;
+    padding-bottom: 5px;
+    border-bottom:2px solid #A0A0A0;
+    background-color: transparent;
+    margin-left: 30px;
+}
+.createbtn{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #5861AE;
+    background-color: white;
+    border: 1px solid #5861AE;
+    border-radius: 5px;
+    margin-left: 700px;
+
+}
+.table{
+    font-size: 14px;
+}
+.pricecol{
+    color:#5861AE;
+    font-weight:500;
+}
+.headrow{
+    background-color:#383737;
+    color:#FFFFFF;
+}
+
+.proceedbtn{
+    margin-right:190px;
+    color:white;
+    background-color:#5861AE;
+    font-family:arial;
+    border: none;
+    border-radius: 5px;
+    font-size:15px;
+    padding:5px;
+
+}
+.modal-body{
+    display:flex;
+    flex-direction:row;
+}
+.warning{
+    margin-left: 30px;
+}
+.message{
+    margin-top: -50px;
+    margin-left: 120px;
+    width:50%;
+    text-align:center;
+}
+b{
+    color:#5861AE
+}
+.modal-header{
+    color:white;
+    background-color:#5861AE;
+}
+.red{
+    color: rgb(218, 25, 25);
+    font-weight: 600;
+}
+.alt{
+    background-color: #FAFAFA;
+}
+.danger{
+    color: rgb(218, 25, 25);
+}
+.summary-dialog {
+    position: fixed;
+    width: 500px;
+    height: 100%;
+    right: 0px;
+}
+.summary-content {
+    width:500px;
+    height: 100%;
+    margin-top: -30px;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.store{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F4F9FF;
+}
+.statusbar{
+    height: 5%;
+    border: 2px solid black;
+}
+.details{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+.addressbar{
+    height: 25%;
+    margin-top: 20px;
+}
+.confirm{
+    height: 20%;
+}
+.storeloc,.storeadd,.storephone{
+    width:30%;
+    height: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+a{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.solo-item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(173, 169, 169);
+    margin-top: 5px;
+
+}
+.solo2{
+    text-align: left;
+    width: 40%;
+    font-size: 14px;
+}
+.solo1{
+    text-align: left;
+    width: 20%;
+    font-size: 14px;
+}
+.solo3{
+    text-align: center;
+    width: 40%;
+    font-size: 14px;
+}
+.orderdetails{
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtotal{
+    width: 40%;
+    margin-left: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 50px;
+    padding: 5px;
+}
+.charges{
+    width: 40%;
+    margin-left: 286px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 50px;
+    padding: 5px;
+}
+.total{
+    width: 100%;
+    background-color:#5861AE ;
+    color: white;
+    font-size: 15px;
+    height:50px;
+    padding: 5px;
+}
+.numbers{
+    color: rgb(65, 62, 62);
+}
+.final{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 315px;
+}
+.address1{
+    border:2px solid steelblue;
+    height: 75%;
+    width: 40%;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    padding-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+}
+.footer{
+    margin-top: -20px;
+}
+.status{
+    float:right;
+    font-weight: 100;
+    font-size: 13px;
+}
